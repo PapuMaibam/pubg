@@ -48,7 +48,7 @@
                 margin-top: 435px;
                 font-size: xx-large;
                 height: 60px;
-                width: 150px;
+                width: 250px;
                 border: none;
                 background-color: rgb(236, 185, 57);
             }
@@ -57,65 +57,100 @@
             }
             .start img{
                 position:absolute;
-                margin-top: 370px;
+                height: 100px;
+                width: 250px;
+                margin-top: 320px;
             }
-            .mis{
+            .season{
                 position: absolute;
-                margin-left: 950px;
-                top: 530px;
-                font-size: small;
+                margin-left: 30px;
+                top: 570px;
+                font-size: medium;
             }
-            .mis:hover{
+            .season:hover{
+                transform: scale(1.05);
+            }
+            .clan{
+                position: absolute;
+                margin-left: 170px;
+                top: 570px;
+                font-size: medium;
+            }
+            .clan:hover{
+                transform: scale(1.05);
+            }
+            .crew{
+                position: absolute;
+                margin-left: 280px;
+                top: 570px;
+                font-size: medium;
+            }
+            .crew:hover{
+                transform: scale(1.05);
+            }
+            .armory{
+                position: absolute;
+                margin-left: 400px;
+                top: 570px;
+                font-size: medium;
+            }
+            .armory:hover{
                 transform: scale(1.05);
             }
             .inv{
                 position: absolute;
-                margin-left: 1050px;
-                top: 530px;
-                font-size: small;
+                margin-left: 550px;
+                top: 570px;
+                font-size: medium;
             }
             .inv:hover{
                 transform: scale(1.05);
-            }
-            .hd img{
-                position: absolute;
-                margin-left: 150px;
-                top:560px;
-                height: 20px;
-                width: 20px;
-            }
-            p{
-                position: absolute;
-
-                top: 545px;
-                margin-left: 90px;
-            }
+            }            
+            
             .foot footer{
                 border: 1px solid white;
                 box-shadow: 12px 36px 20px rgba(0 ,0 ,0 ,0.1);
-                border-bottom: none;
+                border-bottom: none;               
                 border-right: none;
                 border-left: none;
                 height: 40px;
             }
-            .battery img{
-                position: absolute;
-                margin-top: 15px;
-                height: 20px;
-                width: 70px;
-            }
+            
             .perasuit img{
                 position: absolute;
                 margin-left: 1100px;
-                margin-top: 40px;
+                margin-top: 310px;
                 height: 80px;
             }
             .headphones img{
                 position: absolute;
-                height: 40px;
-                width: 143px;
-                margin-left: 1100px;
-                margin-top: 0px;
+                height: 60px;
+                width: 60px;
+                margin-left: 1183px;
+                margin-top: 100px;                
+            }
+            .headphones img:hover{
+                transform: scale(1.05);
+            }
+            .box img{
+                position: absolute;
+                height: 60px;
+                width: 60px;
+                margin-left: 1183px;
+                margin-top: 170px;                
+            }
+            .box img:hover{
+                transform: scale(1.05);
+            }
+            .basket img{
+                position: absolute;
+                height: 60px;
+                width: 60px;
+                margin-left: 1183px;
+                margin-top: 240px;                
+            }
+            .basket img:hover{
+                transform: scale(1.05);
             }
             .coins img{
                 position: absolute;
@@ -140,9 +175,9 @@
             .pubg-icon img{
                 position: absolute;
                 margin-left: 1180px;
-                top: 530px;
-                height: 13px;
-                width: 13px;
+                top: 560px;
+                height: 20px;
+                width: 20px;
             }
             .pubg-icon img:hover{
                 transform: scale(1.05);
@@ -150,7 +185,7 @@
             .gift img{
                 position: absolute;
                 margin-left: 1100px;
-                margin-top: 125px;
+                margin-top: 400px;
                 height: 40px;
                 width: 100px;
                 background-color: white;
@@ -160,7 +195,7 @@
             .bollon img{
                 position: absolute;
                 margin-left: 1203px;
-                margin-top: 125px;
+                margin-top: 400px;
                 height: 40px;
                 width: 40px;
                 border-radius: 3px;
@@ -171,12 +206,56 @@
             .manage img{
                 position: absolute;
                 margin-left: 1143px;
-                margin-top: 170px;
+                margin-top: 360px;
                 height: 30px;
                 width: 100px;
             }
             .manage img:hover{
                 transform: scale(1.05);
+            }
+            .animation img{
+                position: absolute;
+                margin-left: 550px;
+                margin-top: 100px;
+                height: 400px;
+
+            }
+            .setting img{
+                position: absolute;
+                margin-left: 1050px;
+                margin-top: 10px;
+                height: 30px;
+                width: 30px;
+            }
+            .setting img:hover{
+                transform: scale(1.05);
+            }
+            .message img{
+                position: absolute;
+                margin-left: 900px;
+                margin-top: 10px;
+                background-color: white;
+                height: 25px;
+                width: 25px;
+            }
+            .message img:hover{
+                transform: scale(1.05);
+            }
+            .stock img{
+                position: absolute;
+                margin-left: 750px;
+                margin-top: 10px;
+                background-color: white;
+                height: 25px;
+                width: 25px;
+            }
+            .stock img:hover{
+                transform: scale(1.05);
+            }
+            .battle img{
+                position: absolute;
+                margin-top: 200px;
+                margin-left: 0px;
             }
         </style>
     </head>
@@ -204,7 +283,15 @@
         
         <div>
             <div class="headphones">
-                <img src="pubg logo.png" alt="headphones">
+                <img src="pubg-headphones.jpeg" alt="headphones">
+            </div>
+
+            <div class="box">
+                <img src="pubg-box.jpeg" alt="box">
+            </div>
+
+            <div class="basket">
+                <img src="pubg-basket.jpeg" alt="basket">
             </div>
 
             <div class="coins">
@@ -220,7 +307,15 @@
             </div>
 
             <div class="manage">
-                <img src="pubg manage.png" alt="manage">
+                <img src="" alt="manage">
+            </div>
+
+            <div class="animation">
+                <img src="pubg human animation.png" alt="animation">
+            </div>
+
+            <div class="battle">
+                <img src="battle.png" alt="battle">
             </div>
         </div>
 
@@ -239,27 +334,31 @@
             <div class="start">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6xE_LCNvCIJ1fZknky5P8dAwnxcrjzL37Sw&s" alt="classic" height="60px" width="150px"/>            
             <button> Start</button>
-            </div>
-            <div >
-            <div class="mis">MISSIONS</div>
-            <div class="inv">INVENTORY</div>
-            
-            <div class="pubg-icon">
-                <img src="pubg icon.png" alt="icon">
-            </div>
             </div>            
-        </div>
 
         <nav class="foot">
         <footer>
-            <div class="battery">
-              <img src="data:image/png;base64,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" alt="battery"/>
+            <div>
+            <div class="season">SEASON</div>
+            <div class="clan">CLAN</div>
+            <div class="crew">CREW</div>
+            <div class="armory">ARMORY</div>
+            <div class="inv">INVENTORY</div>
+
+            <div class="pubg-icon">
+                <img src="pubg icon.png" alt="icon">
             </div>
 
-                <p>Europe</p>
-                <div class="hd">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsPh-JPo_FT7vgZlxHsRVW1kd46rhjC2-KlQ&s" alt="hd"/>
-                </div>
+            <div class="setting">
+                <img src="setting.png" alt="setting">
+            </div>
+            
+            <div class="message">
+                <img src="message2.png" alt="message">
+            </div>
+            <div class="stock">
+                <img src="stock.png" alt="stock">
+            </div>
             </div>
         </footer>
         </nav>
